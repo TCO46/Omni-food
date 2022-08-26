@@ -1,0 +1,153 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.logo {
+    height: 80px;
+    width: 80px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.home-menu {
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url("./img/hero.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 645px;
+}
+
+span.a {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    padding-right: 50px;
+}
+
+.nav-bar {
+    padding-top: 55px;
+}
+
+
+a:link { 
+    text-decoration: none;
+}
+
+.title {
+    padding-top: 160px;
+    padding-left: 140px;
+    font-size: 40px;
+    color: white;
+}
+
+.btn1 {
+    background-color: #ff8a05;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.btn2 {
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #ff8a05;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.button {
+    padding-left: 135px;
+}
+
+hr.hr1 {
+    border: 2px solid #ff8a05;
+    width:8%;
+    margin:0 auto;
+}
+
+.detail-menu {
+    padding-top: 50px;
+}
+
+.detail {
+    text-align: center;
+}
+
+.inf-icon {
+    max-width: 150px;
+    padding-left: 100px;
+    display: block;
+}
+
+.inf {
+    padding-left: 45px;
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.clock {
+    padding-left: 60px;
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.clock-icon {
+    max-width: 150px;
+    padding-left: 100px;
+    display: block;
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.row {
+    padding: 100px;
+    margin: auto;
+    width: 100%;
+}
+
+.column {
+    width: 25%;
+    padding: 0px;
+    float: left;
+}
+
+.mobile-img {
+    max-width: 150px;
+    display: block;
+    position: relative;
+    left: 240px;
+    top: 40px;
+    float: left;
+}
+
+ul {
+    list-style-image: url('img/star.png');
+}
