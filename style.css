@@ -151,3 +151,15 @@ hr.hr1 {
 ul {
     list-style-image: url('img/star.png');
 }
+
+.container {
+    text-align: center;
+    padding-top: 40px;
+    padding: 10px;
+}
+
+.signup {
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+}
